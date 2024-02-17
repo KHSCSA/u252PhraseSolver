@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.io.File;
 
 public class  Board{
-    private String solvedPhrase;
+    private String solvedSoFar;
     private String phrase;
     private int currentLetterValue; 
 
@@ -62,10 +62,10 @@ public class  Board{
         
         for (int i = 0; i < tempPhrase.length(); i++){
             if (tempPhrase.substring(i, i + 1).equals(" ")){
-                solvedPhrase += "  ";
+                solvedSoFar += "  ";
             }  
             else{
-                solvedPhrase += "_ ";
+                solvedSoFar += "_ ";
             }
         }  
         
@@ -82,10 +82,10 @@ public class  Board{
                 foundLetter = true;
             }
             else{
-                newSolvedPhrase += solvedPhrase.substring(i * 2, i * 2 + 1) + " ";  
+                newSolvedPhrase += solvedSoFar.substring(i * 2, i * 2 + 1) + " ";  
             }
         }
-        solvedPhrase = newSolvedPhrase;
+        solvedSoFar = newSolvedPhrase;
         return foundLetter;
       } 
 } 
