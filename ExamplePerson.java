@@ -1,4 +1,4 @@
-public class Main {
+public class ExamplePerson {
     public static void main (String [] args){
         // look through the existing code
         // TODO 1, what classes are written?
