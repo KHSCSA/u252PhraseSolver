@@ -6,7 +6,7 @@
 import java.util.Scanner;
 import java.io.File;
 
-public class  Board{
+public class Board{
     private String solvedSoFar;
     private String phrase;
     private int currentLetterValue; 
