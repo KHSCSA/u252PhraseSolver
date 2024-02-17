@@ -40,5 +40,4 @@ class Money {
         return "$" + totalValue;
     }
 
-
 } // close Money class

@@ -18,6 +18,11 @@ public class  Board{
     /* your code here - mutator(s)  */
 
 
+
+
+
+
+    
     /* ---------- provided code, do not modify ---------- */
     public void setLetterValue(){
         int randomInt = (int) ((Math.random() * 10) + 1) * 100;    
