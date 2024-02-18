@@ -11,6 +11,11 @@ public class ExamplePerson {
         Person me = new Person("Scott", 44, "old school");
         System.out.println(me);
 
+        // TODO day 2
+        // write 'accessor' methods
+        // call those methods
+
+
     } // close main
 } // close class
 
