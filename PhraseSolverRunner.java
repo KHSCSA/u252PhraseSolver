@@ -3,7 +3,7 @@
  *
  * The runner for the PhraseSolverGame
  */
-class Main
+class PhraseSolverRunner
 {
     public static void main(String[] args) {
         PhraseSolver p = new PhraseSolver(); 
