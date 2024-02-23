@@ -1,5 +1,3 @@
-
-
 // can you complete the algorithm?
 // if the 'guess' letter appears in 'phrase'
 // replace that position in 'soFar' with the correct letter
