@@ -41,7 +41,7 @@ public class Board{
         
         int numOfLines = 0;
         try{
-          Scanner sc = new Scanner(new File("u25PhraseSolver/phrases.txt"));
+          Scanner sc = new Scanner(new File("phrases.txt"));
           while (sc.hasNextLine()){
               tempPhrase = sc.nextLine().trim();
               numOfLines++;
@@ -52,7 +52,7 @@ public class Board{
         
         try {
             int count = 0;
-            Scanner sc = new Scanner(new File("u25PhraseSolver/phrases.txt"));
+            Scanner sc = new Scanner(new File("phrases.txt"));
             while (sc.hasNextLine()){
                 count++;
                 String temp = sc.nextLine().trim();
